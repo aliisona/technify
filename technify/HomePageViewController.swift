@@ -7,24 +7,26 @@
 
 import UIKit
 
+func getGreetings() -> String {
+    let greetings = ["Hello", "Howdy", "Hey", "Hola", "Bonjour", "Welcome"]
+    let randomGreetIndex = Int.random(in: 0 ..< greetings.count-1)
+    
+    let randomGreet = greetings[randomGreetIndex]
+    return randomGreet
+}
+
+
 class HomePageViewController: UIViewController {
     
-    func randomizer(lowBound : Int, highBound : Int) -> Int {
-      let randomInt = Int.random(in: lowBound ..< highBound)
-      return randomInt
-    }
+    var greeting = getGreetings()
     
-//    var greetings = ["Hello", "Woot"]
-//
-//    var randomText = randomizer(lowBound: 0, highBound: greetings.count-1 )
-//
-    @IBOutlet weak var taskProgressBar: UIProgressView! //refer to when completing taskss
+
     
     @IBOutlet public var greetingText: UILabel! //set to greeting text
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        greetingText.text = "Howdy, \(user1.username)"
+        greetingText.text = "\(greeting), \(user1.username)"
         // Do any additional setup after loading the view.
     }
     
