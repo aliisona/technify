@@ -28,7 +28,11 @@ class CreateAccountViewController: UIViewController {
     }
     
     @IBAction func createAccountTapped(_ sender: UIButton) {
+        
+        if tacSwitch.isOn {
         user1 = Profile(usernameSet: usernameTextField.text! , emailSet: emailTextField.text!, passwordSet: passwordTextField.text!, focusSet: "NonSelected")
+        }
+
     }
     
     
