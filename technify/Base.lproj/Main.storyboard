@@ -67,9 +67,6 @@ Technify</string>
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="qVA-fw-JGE" kind="presentation" id="xhg-Qv-Cfw"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -80,53 +77,47 @@ Technify</string>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="mPj-j8-hBD">
+        <!--Tab Bar Controller-->
+        <scene sceneID="Vu1-He-JUd">
             <objects>
-                <viewController id="qVA-fw-JGE" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="e1b-cv-PlJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                <tabBarController id="yFt-aR-MOD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XQt-9w-7vS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D6T-0E-YCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="-1073"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pcl-pM-TVo">
+            <objects>
+                <viewController id="mC8-Ex-tVX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xEI-jF-yuv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHD-aP-ZEz">
-                                <rect key="frame" x="43" y="19" width="282" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Hello, (user)">
-                                        <attributes>
-                                            <font key="NSFont" size="41" name="GillSans-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                <tabStops/>
-                                            </paragraphStyle>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XnY-33-1CA">
-                                <rect key="frame" x="21" y="177" width="361" height="611"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1qy-of-Bng">
-                                        <rect key="frame" x="54" y="23" width="252" height="252"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fr-dA-XWh">
-                                        <rect key="frame" x="54" y="331" width="252" height="252"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="Zjb-xN-MYc"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="ICu-6a-0D8"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S4h-Za-bVT">
+                                <rect key="frame" x="20" y="175" width="240" height="128"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Wza-gu-OPm"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="f3H-Jp-NDZ"/>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="zKC-yo-VFp"/>
+                        <viewLayoutGuide key="safeArea" id="wEF-Df-Rve"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wEF-Df-Rve" firstAttribute="trailing" secondItem="S4h-Za-bVT" secondAttribute="trailing" id="1Gn-ss-CDk"/>
+                            <constraint firstItem="S4h-Za-bVT" firstAttribute="top" secondItem="wEF-Df-Rve" secondAttribute="top" id="1XR-Ug-gGe"/>
+                            <constraint firstItem="wEF-Df-Rve" firstAttribute="bottom" secondItem="S4h-Za-bVT" secondAttribute="bottom" id="Iq7-Mh-smz"/>
+                            <constraint firstItem="S4h-Za-bVT" firstAttribute="leading" secondItem="wEF-Df-Rve" secondAttribute="leading" id="xcp-PW-TTi"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VcM-7h-VWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jp0-Uv-jc5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798.55072463768124" y="-282.58928571428572"/>
+            <point key="canvasLocation" x="1707" y="-248"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="agJ-GR-Ox8">
@@ -238,9 +229,6 @@ Technify</string>
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="qVA-fw-JGE" kind="presentation" id="MRF-YD-yh3"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L5m-f6-8EO"/>
@@ -249,12 +237,9 @@ Technify</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="evv-IV-yyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798.55072463768124" y="426.5625"/>
+            <point key="canvasLocation" x="799" y="500"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="MRF-YD-yh3"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
