@@ -19,4 +19,9 @@ public class Profile {
         password = passwordSet
         focus = focusSet
      }
+    
+    init(usernameSet : String = "username", focusSet : String = "genericFocus") {
+        username = usernameSet
+        focus = focusSet
+    }
 }
