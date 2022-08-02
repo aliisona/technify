@@ -11,9 +11,11 @@ class HomePageViewController: UIViewController {
 
     @IBOutlet weak var taskProgressBar: UIProgressView! //refer to when completing taskss
     
+    @IBOutlet public var greetingText: UILabel! //set to greeting text
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        greetingText.text = "Hello, \(user1.username)"
         // Do any additional setup after loading the view.
     }
     
