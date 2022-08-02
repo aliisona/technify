@@ -72,7 +72,7 @@
         <!--Welcome Back View Controller-->
         <scene sceneID="fvS-VK-giL">
             <objects>
-                <viewController id="TXL-Un-dNS" customClass="WelcomeBackViewController" sceneMemberID="viewController">
+                <viewController id="TXL-Un-dNS" customClass="WelcomeBackViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ks-Z9-w7r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,14 +217,14 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nvn-0X-UPO" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="3500"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-Ud-cJg">
-                                                <rect key="frame" x="35" y="44" width="301" height="56"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-Ud-cJg">
+                                                <rect key="frame" x="35" y="44" width="330" height="56"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Hello, (user)">
                                                         <attributes>
                                                             <font key="NSFont" size="48" name="GillSans-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -727,7 +727,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfu-mD-McW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1523" y="847"/>
+            <point key="canvasLocation" x="1521.7391304347827" y="846.42857142857144"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="agJ-GR-Ox8">
