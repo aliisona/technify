@@ -206,7 +206,6 @@
         <!--Home-->
         <scene sceneID="qdu-TX-C0d">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qfu-mD-McW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="W3b-2Z-XHX" customClass="HomePageViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A9y-fY-maR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="3417"/>
@@ -238,7 +237,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-Ud-cJg">
-                                                <rect key="frame" x="49" y="8" width="218" height="35"/>
+                                                <rect key="frame" x="49" y="45" width="218" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Hello, (user)">
@@ -283,6 +282,7 @@
                         <outlet property="greetingText" destination="IgX-Ud-cJg" id="ImX-GY-ohw"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qfu-mD-McW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1521.7391304347827" y="846.42857142857144"/>
         </scene>
