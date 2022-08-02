@@ -70,7 +70,7 @@ Technify</string>
                                     <color key="baseBackgroundColor" red="0.57570548570000002" green="0.61349826389999995" blue="0.44080396350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="W3b-2Z-XHX" kind="presentation" modalPresentationStyle="fullScreen" id="Nac-Wb-J6B"/>
+                                    <segue destination="yFt-aR-MOD" kind="presentation" modalPresentationStyle="fullScreen" id="tUE-ax-Sz9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,6 +86,7 @@ Technify</string>
         <scene sceneID="Vu1-He-JUd">
             <objects>
                 <tabBarController id="yFt-aR-MOD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uaj-nO-0Xs"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="XQt-9w-7vS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -275,7 +276,7 @@ Technify</string>
                                     <color key="baseBackgroundColor" red="0.57570548570000002" green="0.61349826389999995" blue="0.44080396350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="W3b-2Z-XHX" kind="presentation" modalPresentationStyle="fullScreen" id="3gu-IA-v3M"/>
+                                    <segue destination="yFt-aR-MOD" kind="presentation" modalPresentationStyle="fullScreen" id="QTY-VN-OTh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -321,7 +322,7 @@ Technify</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Mx4-Bu-TZ0"/>
+        <segue reference="tUE-ax-Sz9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
