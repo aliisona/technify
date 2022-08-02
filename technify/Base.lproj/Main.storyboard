@@ -80,7 +80,7 @@ Technify</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+            <point key="canvasLocation" x="1523" y="-1213"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vu1-He-JUd">
@@ -103,7 +103,7 @@ Technify</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6T-0E-YCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1009" y="-571"/>
+            <point key="canvasLocation" x="2912" y="-896"/>
         </scene>
         <!--Item-->
         <scene sceneID="gte-6H-nlB">
@@ -286,7 +286,7 @@ Technify</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="evv-IV-yyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="799" y="500"/>
+            <point key="canvasLocation" x="2912" y="-1653"/>
         </scene>
         <!--Item-->
         <scene sceneID="WuL-74-CUx">
@@ -322,7 +322,7 @@ Technify</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tUE-ax-Sz9"/>
+        <segue reference="QTY-VN-OTh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
