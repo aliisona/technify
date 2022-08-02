@@ -7,6 +7,8 @@
 
 import UIKit
 
+public var user1 = Profile(usernameSet: "", emailSet: "", passwordSet: "", focusSet: "")
+
 class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var usernameTextField: UITextField!
@@ -15,6 +17,10 @@ class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var tacSwitch: UISwitch!
+    
+    @IBOutlet weak var subSwitch: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +28,7 @@ class CreateAccountViewController: UIViewController {
     }
     
     @IBAction func createAccountTapped(_ sender: UIButton) {
+        user1 = Profile(usernameSet: usernameTextField.text! , emailSet: emailTextField.text!, passwordSet: passwordTextField.text!, focusSet: "NonSelected")
     }
     
     

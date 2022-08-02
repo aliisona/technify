@@ -627,6 +627,7 @@ Cg
                     <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="4u8-Dj-fMN"/>
                     <size key="freeformSize" width="414" height="3500"/>
                     <connections>
+                        <outlet property="greetingText" destination="IgX-Ud-cJg" id="ImX-GY-ohw"/>
                         <outlet property="taskProgressBar" destination="lav-Cb-apq" id="rPg-Qd-fJg"/>
                     </connections>
                 </viewController>
@@ -820,7 +821,7 @@ Cg
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="r0l-Zj-I7a"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="App-Vs-vLY">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="App-Vs-vLY">
                                 <rect key="frame" x="59" y="628" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.46274507050000002" green="0.5176470876" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -840,7 +841,7 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GSK-2X-9Px">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GSK-2X-9Px">
                                 <rect key="frame" x="59" y="671" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.46274507050000002" green="0.5176470876" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -859,6 +860,8 @@ Cg
                     <connections>
                         <outlet property="emailTextField" destination="FiD-to-2hF" id="4rW-ms-ab4"/>
                         <outlet property="passwordTextField" destination="784-aP-fzD" id="jEK-Hu-esI"/>
+                        <outlet property="subSwitch" destination="GSK-2X-9Px" id="bYv-kh-NHq"/>
+                        <outlet property="tacSwitch" destination="App-Vs-vLY" id="jTl-K1-Oed"/>
                         <outlet property="usernameTextField" destination="iYh-U3-SyO" id="WLt-S3-zZV"/>
                     </connections>
                 </viewController>
