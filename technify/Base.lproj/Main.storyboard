@@ -33,7 +33,7 @@
                                     <color key="baseBackgroundColor" red="0.57570548570000002" green="0.61349826389999995" blue="0.44080396350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Rjl-FJ-wiP" kind="presentation" id="7QT-Xx-SRD"/>
+                                    <segue destination="Rjl-FJ-wiP" kind="presentation" modalPresentationStyle="fullScreen" id="7QT-Xx-SRD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35w-JJ-hf4">
@@ -112,7 +112,7 @@
         <!--Home-->
         <scene sceneID="qdu-TX-C0d">
             <objects>
-                <viewController id="W3b-2Z-XHX" sceneMemberID="viewController">
+                <viewController id="W3b-2Z-XHX" customClass="HomePageViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A9y-fY-maR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="3417"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -626,17 +626,20 @@ Cg
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="4u8-Dj-fMN"/>
                     <size key="freeformSize" width="414" height="3500"/>
+                    <connections>
+                        <outlet property="taskProgressBar" destination="lav-Cb-apq" id="rPg-Qd-fJg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfu-mD-McW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1518.840579710145" y="349.55357142857139"/>
+            <point key="canvasLocation" x="1523" y="847"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="agJ-GR-Ox8">
             <objects>
                 <viewController id="Rjl-FJ-wiP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FHG-jq-fFS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4c-2s-4E2">
@@ -762,7 +765,7 @@ Cg
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="BSH-nF-z9T"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="r0l-Zj-I7a"/>
                                 </connections>
                             </button>
                         </subviews>
