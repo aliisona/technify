@@ -208,7 +208,7 @@
             <objects>
                 <viewController id="W3b-2Z-XHX" customClass="HomePageViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A9y-fY-maR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3417"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3917"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8F-Ew-D79">
@@ -221,21 +221,6 @@
                                                 <rect key="frame" x="0.0" y="-45" width="414" height="4000"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrJ-NQ-rqd">
-                                                <rect key="frame" x="49" y="3295" width="315" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="end of content">
-                                                        <attributes>
-                                                            <font key="NSFont" size="17" name="GillSans-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-Ud-cJg">
                                                 <rect key="frame" x="49" y="45" width="218" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -245,6 +230,21 @@
                                                             <color key="NSColor" red="0.043035865703604632" green="0.043461963383838342" blue="0.043461963383838342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                             <font key="NSFont" size="18" name="HelveticaNeue-Light"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="13" paragraphSpacingBefore="2" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrJ-NQ-rqd">
+                                                <rect key="frame" x="49" y="3745" width="315" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="end of content">
+                                                        <attributes>
+                                                            <font key="NSFont" size="17" name="GillSans-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -277,7 +277,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="4u8-Dj-fMN"/>
-                    <size key="freeformSize" width="414" height="3500"/>
+                    <size key="freeformSize" width="414" height="4000"/>
                     <connections>
                         <outlet property="greetingText" destination="IgX-Ud-cJg" id="ImX-GY-ohw"/>
                     </connections>
