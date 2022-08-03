@@ -15,6 +15,7 @@
 		BDD87D7A289AF5CD00C07E0B /* postSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D79289AF5CD00C07E0B /* postSettings.swift */; };
 		BDD87D7C289AF6F900C07E0B /* SecondCreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D7B289AF6F900C07E0B /* SecondCreatePostViewController.swift */; };
 		BDD87D7E289AF70B00C07E0B /* ThirdCreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D7D289AF70B00C07E0B /* ThirdCreatePostViewController.swift */; };
+		BDD87D80289AFCDD00C07E0B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D7F289AFCDD00C07E0B /* ProfileViewController.swift */; };
 		BDE4644F2898618100A98A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4644E2898618100A98A15 /* AppDelegate.swift */; };
 		BDE464512898618100A98A15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE464502898618100A98A15 /* SceneDelegate.swift */; };
 		BDE464562898618100A98A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE464542898618100A98A15 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		BDD87D79289AF5CD00C07E0B /* postSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postSettings.swift; sourceTree = "<group>"; };
 		BDD87D7B289AF6F900C07E0B /* SecondCreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCreatePostViewController.swift; sourceTree = "<group>"; };
 		BDD87D7D289AF70B00C07E0B /* ThirdCreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCreatePostViewController.swift; sourceTree = "<group>"; };
+		BDD87D7F289AFCDD00C07E0B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BDE4644B2898618100A98A15 /* technify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = technify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE4644E2898618100A98A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE464502898618100A98A15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				BDD87D79289AF5CD00C07E0B /* postSettings.swift */,
 				BDD87D7B289AF6F900C07E0B /* SecondCreatePostViewController.swift */,
 				BDD87D7D289AF70B00C07E0B /* ThirdCreatePostViewController.swift */,
+				BDD87D7F289AFCDD00C07E0B /* ProfileViewController.swift */,
 			);
 			path = technify;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				BDD87D78289AF59200C07E0B /* createPostViewController1.swift in Sources */,
 				BDD87D6C28999BE300C07E0B /* profileSettings.swift in Sources */,
 				BDD87D6E2899AC6E00C07E0B /* WelcomeBackViewController.swift in Sources */,
+				BDD87D80289AFCDD00C07E0B /* ProfileViewController.swift in Sources */,
 				BDE4644F2898618100A98A15 /* AppDelegate.swift in Sources */,
 				BDE464512898618100A98A15 /* SceneDelegate.swift in Sources */,
 				BDD87D7A289AF5CD00C07E0B /* postSettings.swift in Sources */,
