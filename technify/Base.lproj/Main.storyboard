@@ -711,7 +711,6 @@
         <!--Progress-->
         <scene sceneID="waD-9V-Jwx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9uh-rS-19X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="wPI-bh-wG3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cbe-zO-Voj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
@@ -721,13 +720,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Progress" image="list.bullet.rectangle" catalog="system" id="Okw-Bg-dre"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9uh-rS-19X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4090" y="-24"/>
         </scene>
         <!--Profile-->
         <scene sceneID="V9j-dQ-EsP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ0-Ib-G57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="PGX-Ww-nHg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rXH-U5-7MG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
@@ -737,6 +736,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="Z5y-Zf-FSw"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ0-Ib-G57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4855" y="-24"/>
         </scene>
