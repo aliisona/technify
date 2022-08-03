@@ -20,8 +20,6 @@ class HomePageViewController: UIViewController {
     
     var greeting = getGreetings()
     
-
-    
     @IBOutlet public var greetingText: UILabel! //set to greeting text
     
     override func viewDidLoad() {
