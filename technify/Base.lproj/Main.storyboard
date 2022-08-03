@@ -767,6 +767,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgC-ry-1I5">
+                                <rect key="frame" x="156" y="787" width="145" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="RESTART"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KU1-Yu-osr"/>
                         <color key="backgroundColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1097,7 +1103,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8z-TW-NUv">
-                                <rect key="frame" x="102" y="636" width="211" height="31"/>
+                                <rect key="frame" x="102" y="741" width="211" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="take progress quiz "/>
@@ -1105,6 +1111,10 @@
                                     <segue destination="z5v-BX-1Uf" kind="presentation" modalPresentationStyle="fullScreen" id="fjx-Zy-K4D"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="  Progress" translatesAutoresizingMaskIntoConstraints="NO" id="HFK-0z-1Af">
+                                <rect key="frame" x="-23" y="0.0" width="463" height="813"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tRs-vM-4J8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1123,6 +1133,12 @@
                     <view key="view" contentMode="scaleToFill" id="rXH-U5-7MG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" Create Account" translatesAutoresizingMaskIntoConstraints="NO" id="zSb-zb-l0J">
+                                <rect key="frame" x="-16" y="0.0" width="446" height="813"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QyQ-W0-lOi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -1130,7 +1146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJ0-Ib-G57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4855" y="-24"/>
+            <point key="canvasLocation" x="4853.6231884057979" y="-24.107142857142858"/>
         </scene>
         <!--Create Post-->
         <scene sceneID="C2E-Do-3wD">
@@ -1157,6 +1173,8 @@
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="  Progress" width="414" height="812"/>
+        <image name=" Create Account" width="414" height="812"/>
         <image name="Create Post" width="414" height="812"/>
         <image name="Focus" width="422" height="820"/>
         <image name="Progress" width="422" height="4008"/>
