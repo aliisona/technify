@@ -694,21 +694,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zxb-on-Ogs">
-                                <rect key="frame" x="225" y="562" width="169" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="TRUE :)"/>
-                                <connections>
-                                    <segue destination="P26-uo-450" kind="show" id="leG-QF-cUe"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tj-jt-Lrf">
-                                <rect key="frame" x="16" y="562" width="169" height="160"/>
+                                <rect key="frame" x="214" y="540" width="169" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="FALSE :("/>
                                 <connections>
+                                    <action selector="sq3_false:" destination="qnC-Bz-kaG" eventType="touchUpInside" id="Ryi-Hi-o1Y"/>
                                     <segue destination="P26-uo-450" kind="show" id="iEk-k4-ZRR"/>
                                 </connections>
                             </button>
@@ -719,6 +711,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zxb-on-Ogs">
+                                <rect key="frame" x="30" y="540" width="169" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="TRUE :)"/>
+                                <connections>
+                                    <action selector="sq3_true:" destination="qnC-Bz-kaG" eventType="touchUpInside" id="tCo-md-7Cg"/>
+                                    <segue destination="P26-uo-450" kind="show" id="leG-QF-cUe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="a6K-E6-gPO"/>
                         <color key="backgroundColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -749,38 +751,42 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtR-lT-n9l">
-                                <rect key="frame" x="20" y="532" width="157" height="86"/>
+                                <rect key="frame" x="32" y="487" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="sayHello"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="&quot;sayHello&quot;"/>
                                 <connections>
+                                    <action selector="sq4_sayHello:" destination="P26-uo-450" eventType="touchUpInside" id="i4p-SX-NvT"/>
                                     <segue destination="kIt-YS-QiH" kind="show" id="s5E-wz-NNE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxP-Pa-j2V">
-                                <rect key="frame" x="31" y="665" width="157" height="86"/>
+                                <rect key="frame" x="32" y="620" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Say hi"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="&quot;Say hi&quot;"/>
                                 <connections>
+                                    <action selector="sq4_sayhi:" destination="P26-uo-450" eventType="touchUpInside" id="lCY-Ad-i5M"/>
                                     <segue destination="kIt-YS-QiH" kind="show" id="StY-3z-ppt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saJ-mE-3s3">
-                                <rect key="frame" x="237" y="532" width="157" height="86"/>
+                                <rect key="frame" x="225" y="487" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Wave hi 👋"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="&quot;Wave&quot;"/>
                                 <connections>
+                                    <action selector="sq4_wave:" destination="P26-uo-450" eventType="touchUpInside" id="KwV-x9-ULc"/>
                                     <segue destination="kIt-YS-QiH" kind="show" id="rZR-69-7dy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kow-xZ-tw2">
-                                <rect key="frame" x="225" y="665" width="181" height="86"/>
+                                <rect key="frame" x="218" y="620" width="171" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Both wave hi and Say hi "/>
+                                <buttonConfiguration key="configuration" style="tinted" title="&quot;Wave hi&quot; and &quot;Say hi&quot;"/>
                                 <connections>
+                                    <action selector="sq4_wavehisayhi:" destination="P26-uo-450" eventType="touchUpInside" id="8gS-65-NDV"/>
                                     <segue destination="kIt-YS-QiH" kind="show" id="h5m-s5-JIv"/>
                                 </connections>
                             </button>
@@ -829,6 +835,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="FALSE :("/>
                                 <connections>
+                                    <action selector="sq5_false:" destination="kIt-YS-QiH" eventType="touchUpInside" id="udg-Y0-KZK"/>
                                     <segue destination="eVo-lp-pgy" kind="show" id="yQE-lK-U7A"/>
                                 </connections>
                             </button>
@@ -838,6 +845,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="TRUE :)"/>
                                 <connections>
+                                    <action selector="sq5_true:" destination="kIt-YS-QiH" eventType="touchUpInside" id="XUX-ep-V5g"/>
                                     <segue destination="eVo-lp-pgy" kind="show" id="8yu-Pt-2Sh"/>
                                 </connections>
                             </button>

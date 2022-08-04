@@ -15,7 +15,14 @@ class SwiftQ_3ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func sq3_true(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
+    @IBAction func sq3_false(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: true)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -15,7 +15,26 @@ class SwiftQ_4ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func sq4_sayHello(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
+    
+    @IBAction func sq4_wave(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
 
+    }
+    
+    @IBAction func sq4_sayhi(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+
+    }
+    
+    @IBAction func sq4_wavehisayhi(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: true)
+
+    }
+    
     /*
     // MARK: - Navigation
 
