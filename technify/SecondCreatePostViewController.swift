@@ -7,14 +7,22 @@
 
 import UIKit
 
-class SecondCreatePostViewController: UIViewController {
+var imagePicker = UIImagePickerController()
 
+class SecondCreatePostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    @IBOutlet weak var imageDisplay: UIImageView!
+    
     @IBOutlet weak var captionTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imagePicker.delegate = self
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func choosePhotoTapped(_ sender: UIButton) {
+        present(imagePicker, animated: true, completion : nil)
     }
     
     @IBAction func createPost2(_ sender: UIButton) {
@@ -22,7 +30,14 @@ class SecondCreatePostViewController: UIViewController {
             userPost1.caption = captionSet
         }
         
+    }
     
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            imageDisplay.image = selectedImage
+            imagePicker.dismiss(animated:true, completion :nil)
+        }
+
     }
     
     /*
