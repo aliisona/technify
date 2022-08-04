@@ -990,6 +990,24 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89n-FC-GuL">
+                                <rect key="frame" x="77" y="198" width="264" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Good job! 100%">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="HelveticaNeue-MediumItalic"/>
+                                            <font key="NSOriginalFont" size="36" name="HelveticaNeue-MediumItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MxR-Fw-Lu6"/>
                         <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1423,7 +1441,7 @@
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="u6e-Ec-u4U"/>
+        <segue reference="mE9-CR-Eov"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
