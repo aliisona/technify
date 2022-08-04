@@ -21,7 +21,7 @@ class SwiftQ_1ViewController: UIViewController {
         swift_quiz.checkAns(quesType: false)
     }
     
-    @IBAction func ac_2(_ sender: UIButton) {
+    @IBAction func ac_2(_ sender: UIButton) { //this is the correct ans
         swift_quiz.checkAns(quesType: true)
     }
     
