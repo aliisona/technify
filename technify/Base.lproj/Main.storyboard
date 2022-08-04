@@ -500,6 +500,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="VARIETY"/>
                                 <connections>
+                                    <action selector="ac_3:" destination="z5v-BX-1Uf" eventType="touchUpInside" id="9Dv-Gc-g9c"/>
                                     <segue destination="m1L-v9-90h" kind="show" id="Ca3-Ao-XmQ"/>
                                 </connections>
                             </button>
@@ -509,6 +510,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="VERSION"/>
                                 <connections>
+                                    <action selector="ac_4:" destination="z5v-BX-1Uf" eventType="touchUpInside" id="9DR-Ad-QUL"/>
                                     <segue destination="m1L-v9-90h" kind="show" id="5Fy-yO-gK8"/>
                                 </connections>
                             </button>
@@ -598,39 +600,52 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbx-Lh-yfr">
-                                <rect key="frame" x="41" y="501" width="157" height="86"/>
+                                <rect key="frame" x="29" y="430" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="EMMA"/>
                                 <connections>
+                                    <action selector="sq2_emma:" destination="m1L-v9-90h" eventType="touchUpInside" id="SxL-dr-X6H"/>
                                     <segue destination="qnC-Bz-kaG" kind="show" id="ioz-zc-qOW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8t-ZG-DWh">
-                                <rect key="frame" x="228" y="501" width="157" height="86"/>
+                                <rect key="frame" x="228" y="430" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="MARNIE"/>
                                 <connections>
+                                    <action selector="sq2_marnie:" destination="m1L-v9-90h" eventType="touchUpInside" id="kKJ-AD-tR6"/>
                                     <segue destination="qnC-Bz-kaG" kind="show" id="F1G-Qz-3EN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8c4-r4-mU6">
-                                <rect key="frame" x="228" y="660" width="157" height="86"/>
+                                <rect key="frame" x="228" y="550" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="ELLA"/>
                                 <connections>
+                                    <action selector="sq2_ella:" destination="m1L-v9-90h" eventType="touchUpInside" id="VL4-s1-25E"/>
                                     <segue destination="qnC-Bz-kaG" kind="show" id="brC-yN-MLS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nY-Pe-Xep">
-                                <rect key="frame" x="41" y="660" width="157" height="86"/>
+                                <rect key="frame" x="29" y="550" width="157" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="ISABELLA"/>
                                 <connections>
+                                    <action selector="sq2_isabella:" destination="m1L-v9-90h" eventType="touchUpInside" id="8ps-Ha-ubQ"/>
                                     <segue destination="qnC-Bz-kaG" kind="show" id="aXL-gv-dpJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qek-2i-WTK">
+                                <rect key="frame" x="129" y="674" width="157" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="JENNY"/>
+                                <connections>
+                                    <action selector="sq2_jenny:" destination="m1L-v9-90h" eventType="touchUpInside" id="RxT-Rp-Q9v"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -25,8 +25,14 @@ class SwiftQ_1ViewController: UIViewController {
         swift_quiz.checkAns(quesType: true)
     }
     
+    @IBAction func ac_3(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
     
-
+    @IBAction func ac_4(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
     /*
     // MARK: - Navigation
 

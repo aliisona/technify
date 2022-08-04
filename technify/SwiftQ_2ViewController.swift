@@ -15,7 +15,28 @@ class SwiftQ_2ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func sq2_emma(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: true)
+    }
+    
+    @IBAction func sq2_marnie(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
+    @IBAction func sq2_isabella(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
+    @IBAction func sq2_ella(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
+    @IBAction func sq2_jenny(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
