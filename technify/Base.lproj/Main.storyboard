@@ -458,11 +458,11 @@
             </objects>
             <point key="canvasLocation" x="3808.6956521739135" y="732.58928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--SwiftQ1 View Controller-->
         <scene sceneID="dC9-S2-QhF">
             <objects>
-                <viewController id="z5v-BX-1Uf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qzm-yJ-VH8">
+                <viewController id="z5v-BX-1Uf" customClass="SwiftQ_1ViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qzm-yJ-VH8" customClass="Swift_Q1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -518,6 +518,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="VARIABLE"/>
                                 <connections>
+                                    <action selector="ac_2:" destination="z5v-BX-1Uf" eventType="touchUpInside" id="iVR-zc-Mfp"/>
                                     <segue destination="m1L-v9-90h" kind="show" id="Ypg-li-3Ex"/>
                                 </connections>
                             </button>
@@ -527,6 +528,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="VARIATION"/>
                                 <connections>
+                                    <action selector="ac_1:" destination="z5v-BX-1Uf" eventType="touchUpInside" id="qwK-kU-Dj9"/>
                                     <segue destination="m1L-v9-90h" kind="show" id="9Wo-1K-N06"/>
                                 </connections>
                             </button>
@@ -541,10 +543,10 @@
             </objects>
             <point key="canvasLocation" x="4685.507246376812" y="740.625"/>
         </scene>
-        <!--View Controller-->
+        <!--SwiftQ2 View Controller-->
         <scene sceneID="1zS-jt-ZT4">
             <objects>
-                <viewController id="m1L-v9-90h" sceneMemberID="viewController">
+                <viewController id="m1L-v9-90h" customClass="SwiftQ_2ViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7YH-60-Wva">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -641,10 +643,10 @@
             </objects>
             <point key="canvasLocation" x="5353.6231884057979" y="740.625"/>
         </scene>
-        <!--View Controller-->
+        <!--SwiftQ3 View Controller-->
         <scene sceneID="gtd-WT-eBM">
             <objects>
-                <viewController id="qnC-Bz-kaG" sceneMemberID="viewController">
+                <viewController id="qnC-Bz-kaG" customClass="SwiftQ_3ViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U3w-YA-coP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -712,10 +714,10 @@
             </objects>
             <point key="canvasLocation" x="6044.9275362318849" y="740.625"/>
         </scene>
-        <!--View Controller-->
+        <!--SwiftQ4 View Controller-->
         <scene sceneID="hdz-rT-FDm">
             <objects>
-                <viewController id="P26-uo-450" sceneMemberID="viewController">
+                <viewController id="P26-uo-450" customClass="SwiftQ_4ViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qTT-Ww-FnS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -777,10 +779,10 @@
             </objects>
             <point key="canvasLocation" x="6757.971014492754" y="742.63392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--SwiftQ5 View Controller-->
         <scene sceneID="Yli-HN-OXh">
             <objects>
-                <viewController id="kIt-YS-QiH" sceneMemberID="viewController">
+                <viewController id="kIt-YS-QiH" customClass="SwiftQ_5ViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xjB-5a-VsZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -868,15 +870,15 @@
             </objects>
             <point key="canvasLocation" x="7440.579710144928" y="740.625"/>
         </scene>
-        <!--View Controller-->
+        <!--Swift Quiz Master View Controller-->
         <scene sceneID="Plg-Bs-VMw">
             <objects>
-                <viewController id="eVo-lp-pgy" sceneMemberID="viewController">
+                <viewController id="eVo-lp-pgy" customClass="SwiftQuizMasterViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X45-HY-5If">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="MxR-Fw-Lu6"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="lpa-kk-FaU"/>
                 </viewController>
