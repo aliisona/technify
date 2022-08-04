@@ -10,6 +10,7 @@ import UIKit
 public class QuizResults {
     var answered = 0.0
     var correct = 0.0
+    var percentage = 0.0
     
     func checkAns(quesType : Bool) {
         if quesType {
@@ -19,12 +20,12 @@ public class QuizResults {
         print(answered, correct)
     }
     
-    func getResults() -> Double {
-        let percentage = correct/answered
-        return percentage
+    func getResults() -> String {
+        percentage = correct/answered //this is a double
+        return String(percentage)
     }
     
-    func getResultMess(percentage : Double) -> String {
+    func getResultMess() -> String {
         if percentage > 0.80 {
             return "Good job"
         }
@@ -38,9 +39,14 @@ public class QuizResults {
 
 class SwiftQuizMasterViewController: UIViewController {
 
+    @IBOutlet weak var resultsMessText: UILabel!
+    
+    @IBOutlet weak var percentageText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        resultsMessText.text = swift_quiz.getResultMess()
+        percentageText.text = swift_quiz.getResults()
         // Do any additional setup after loading the view.
     }
 }
