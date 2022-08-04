@@ -8,8 +8,8 @@
 import UIKit
 
 public class QuizResults {
-    var answered = 0
-    var correct = 0
+    var answered = 0.0
+    var correct = 0.0
     
     func checkAns(quesType : Bool) {
         if quesType {
@@ -19,9 +19,19 @@ public class QuizResults {
         print(answered, correct)
     }
     
-    func getResults() -> Int {
+    func getResults() -> Double {
         let percentage = correct/answered
         return percentage
+    }
+    
+    func getResultMess(percentage : Double) -> String {
+        if percentage > 0.80 {
+            return "Good job"
+        }
+        
+        else {
+            return "Try again"
+        }
     }
     
 }

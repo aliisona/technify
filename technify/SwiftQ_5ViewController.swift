@@ -15,7 +15,13 @@ class SwiftQ_5ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func sq5_true(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: true)
+    }
+    
+    @IBAction func sq5_false(_ sender: UIButton) {
+        swift_quiz.checkAns(quesType: false)
+    }
     /*
     // MARK: - Navigation
 
