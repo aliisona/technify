@@ -23,6 +23,7 @@ public class QuizResults {
     func getResults() -> String {
         percentage = correct/answered //this is a double
         let perString = String(Int(percentage) * 100)
+        print(percentage)
         return "\(perString)%"
     }
     

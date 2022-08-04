@@ -21,6 +21,8 @@ class SecondCreatePostViewController: UIViewController {
         if let captionSet = captionTextField.text {
             userPost1.caption = captionSet
         }
+        
+    
     }
     
     /*
