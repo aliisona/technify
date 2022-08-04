@@ -244,6 +244,14 @@
                                                 <rect key="frame" x="0.0" y="-45" width="414" height="4000"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yes-CP-xqU">
+                                                <rect key="frame" x="-1" y="-45" width="414" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <attributedString key="attributedText"/>
+                                                <color key="highlightedColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="shadowColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-Ud-cJg">
                                                 <rect key="frame" x="49" y="45" width="218" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -274,7 +282,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="3500" id="0lX-ka-0ZC"/>
                                             <constraint firstAttribute="height" constant="4000" id="pVl-vw-z3K"/>
@@ -290,7 +298,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Aj-90-BgH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="a8F-Ew-D79" firstAttribute="trailing" secondItem="0Aj-90-BgH" secondAttribute="trailing" id="6Q6-6o-22O"/>
                             <constraint firstAttribute="bottom" secondItem="a8F-Ew-D79" secondAttribute="bottom" id="Dah-Ic-qeM"/>
@@ -411,6 +419,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="createAccountTapped:" destination="Rjl-FJ-wiP" eventType="touchUpInside" id="Mzn-xf-D8W"/>
+                                    <segue destination="yFt-aR-MOD" kind="presentation" modalPresentationStyle="fullScreen" id="u6e-Ec-u4U"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kdf-XF-ybJ">
@@ -946,7 +955,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="createAccountTapped:" destination="Rjl-FJ-wiP" eventType="touchUpInside" id="zjM-xZ-a2R"/>
-                                    <segue destination="wPI-bh-wG3" kind="show" id="VIn-xS-lzE"/>
+                                    <segue destination="yFt-aR-MOD" kind="presentation" modalPresentationStyle="fullScreen" id="mE9-CR-Eov"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -954,6 +963,10 @@
                         <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="lpa-kk-FaU"/>
+                    <connections>
+                        <outlet property="percentageText" destination="Nqy-gt-snC" id="Fp3-hL-azg"/>
+                        <outlet property="resultsMessText" destination="2pv-wx-tb0" id="Eex-NF-gQn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UsQ-kk-FPF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1273,7 +1286,7 @@
             <objects>
                 <viewController id="wPI-bh-wG3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cbe-zO-Voj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8z-TW-NUv">
@@ -1363,13 +1376,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VIn-xS-lzE"/>
         <segue reference="yQE-lK-U7A"/>
         <segue reference="StY-3z-ppt"/>
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="QTY-VN-OTh"/>
+        <segue reference="u6e-Ec-u4U"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
