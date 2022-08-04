@@ -17,13 +17,14 @@ public class QuizResults {
             answered+=1
         }
         correct+=1
-        print(answered, correct)
+        print(answered, correct) //testing
     }
     
     func getResults() -> String {
         percentage = correct/answered //this is a double
         let perString = String(Int(percentage) * 100)
-        print(percentage)
+        print(percentage) //testing
+        
         return "\(perString)%"
     }
     

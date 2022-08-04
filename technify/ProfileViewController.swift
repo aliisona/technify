@@ -12,10 +12,14 @@ class ProfileViewController: UIViewController {
 
     @IBOutlet weak var usernameText: UILabel!
     
+    @IBOutlet weak var postsCountText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        usernameText.text = user1.username
+        usernameText.text = ("@\(user1.username)")
+        
+        postsCountText.text = ("Posts (\(user1.posts))")
 
         // Do any additional setup after loading the view.
     }

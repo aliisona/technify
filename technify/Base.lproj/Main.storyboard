@@ -433,6 +433,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="createAccountTapped:" destination="Rjl-FJ-wiP" eventType="touchUpInside" id="Mzn-xf-D8W"/>
+                                    <action selector="postCreated:" destination="uEu-ZL-MIK" eventType="touchUpInside" id="QnF-hs-Gon"/>
                                     <segue destination="yFt-aR-MOD" kind="presentation" modalPresentationStyle="fullScreen" id="u6e-Ec-u4U"/>
                                 </connections>
                             </button>
@@ -991,7 +992,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89n-FC-GuL">
-                                <rect key="frame" x="77" y="198" width="264" height="145"/>
+                                <rect key="frame" x="77" y="212" width="264" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -1399,6 +1400,23 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXx-WD-746">
+                                <rect key="frame" x="38" y="512" width="266" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="posts (Int) ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QyQ-W0-lOi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1406,6 +1424,7 @@
                     <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="Z5y-Zf-FSw"/>
                     <navigationItem key="navigationItem" id="wFg-jl-FND"/>
                     <connections>
+                        <outlet property="postsCountText" destination="jXx-WD-746" id="ptG-S1-aE6"/>
                         <outlet property="usernameText" destination="dGI-ev-G4l" id="uGn-dX-JGh"/>
                     </connections>
                 </viewController>

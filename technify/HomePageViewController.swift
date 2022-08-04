@@ -11,7 +11,7 @@
 import UIKit
 
 func getGreetings() -> String {
-    let greetings = ["Hello", "Howdy", "Hey", "Hola", "Bonjour", "Welcome"]
+    let greetings = ["Hello", "Howdy", "Hey", "Hola", "Bonjour", "Welcome", "Guten Tag", "Olá", "Ciao", "Hallo", "안녕하세요", "今日は", "Yasou", "Cześć", "Hallå", "Chào", "Sawubona", "Hej", "Aloha", "Ħelow"]
     let randomGreetIndex = Int.random(in: 0 ..< greetings.count-1)
     
     let randomGreet = greetings[randomGreetIndex]

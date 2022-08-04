@@ -22,7 +22,10 @@ class ThirdCreatePostViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func postCreated(_ sender: UIButton) {
+        user1.posts+=1
+    }
+    
     /*
     // MARK: - Navigation
 
