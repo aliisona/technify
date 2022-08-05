@@ -35,6 +35,11 @@ class CreateAccountViewController: UIViewController {
 
     }
     
+    @IBAction func passTypeText(_ sender: UITextField) {
+        
+    }
+    
+    
     
 
     /*
