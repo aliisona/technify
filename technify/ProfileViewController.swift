@@ -14,12 +14,18 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var postsCountText: UILabel!
     
+    @IBOutlet weak var profileImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         usernameText.text = ("@\(user1.username)")
         
         postsCountText.text = ("Posts (\(user1.posts))")
+        
+        profileImage.image = UIImage(named: "AppIcon")
+        
+        profileImage.maskCircle()
 
         // Do any additional setup after loading the view.
     }

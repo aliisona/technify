@@ -5,6 +5,8 @@
 //  Created by Scholar on 8/2/22.
 //
 
+import UIKit
+
 public class Profile {
     var username = "genericUsername"
     var email = "genericEmail@emails.com"
@@ -26,5 +28,12 @@ public class Profile {
     init(usernameSet : String = "username", focusSet : String = "genericFocus") {
         username = usernameSet
         focus = focusSet
+    }
+}
+
+extension UIImageView { //code to make profile pic a circle
+    func maskCircle() {
+        self.layer.cornerRadius = self.frame.width / 2;
+        self.layer.masksToBounds = true
     }
 }

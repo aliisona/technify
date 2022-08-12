@@ -1470,7 +1470,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-GE-cRQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-GE-cRQ">
                                 <rect key="frame" x="116" y="71" width="188" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1482,6 +1482,7 @@
                     <navigationItem key="navigationItem" id="wFg-jl-FND"/>
                     <connections>
                         <outlet property="postsCountText" destination="jXx-WD-746" id="ptG-S1-aE6"/>
+                        <outlet property="profileImage" destination="CEP-GE-cRQ" id="bbJ-MH-9kr"/>
                         <outlet property="usernameText" destination="dGI-ev-G4l" id="uGn-dX-JGh"/>
                     </connections>
                 </viewController>
