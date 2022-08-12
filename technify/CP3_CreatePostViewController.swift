@@ -13,6 +13,8 @@ class CP3_CreatePostViewController: UIViewController {
     
     @IBOutlet weak var captionText: UILabel!
     
+    @IBOutlet weak var chosenImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

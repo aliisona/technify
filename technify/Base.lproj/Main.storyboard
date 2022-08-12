@@ -474,6 +474,7 @@
                     <navigationItem key="navigationItem" id="QOc-UK-Uvb"/>
                     <connections>
                         <outlet property="captionText" destination="Mrx-9s-cae" id="v4o-Kq-yCW"/>
+                        <outlet property="chosenImage" destination="kdf-XF-ybJ" id="jVB-eV-5Lb"/>
                         <outlet property="topicText" destination="NV0-Kv-2xe" id="BRy-CQ-w04"/>
                     </connections>
                 </viewController>
