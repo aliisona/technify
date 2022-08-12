@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ThirdCreatePostViewController: UIViewController {
+class CP3_CreatePostViewController: UIViewController {
 
     @IBOutlet weak var topicText: UILabel!
     

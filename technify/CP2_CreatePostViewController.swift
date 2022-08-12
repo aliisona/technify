@@ -9,7 +9,7 @@ import UIKit
 
 var imagePicker = UIImagePickerController()
 
-class SecondCreatePostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class CP2_CreatePostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imageDisplay: UIImageView!
     

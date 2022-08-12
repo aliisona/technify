@@ -9,7 +9,7 @@ import UIKit
 
 public var userPost1 = Post()
 
-class createPostViewController1: UIViewController {
+class CP1_CreatePostViewController: UIViewController {
 
     @IBOutlet weak var titleTextField: UITextField!
     

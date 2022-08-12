@@ -326,10 +326,10 @@
             </objects>
             <point key="canvasLocation" x="1521.7391304347827" y="846.42857142857144"/>
         </scene>
-        <!--Second Create Post View Controller-->
+        <!--Create Post View Controller-->
         <scene sceneID="X3t-Tf-zjU">
             <objects>
-                <viewController id="oXd-v3-Yrr" customClass="SecondCreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oXd-v3-Yrr" customClass="CP2_CreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ii-PE-5EJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,10 +406,10 @@
             </objects>
             <point key="canvasLocation" x="3044.9275362318845" y="732.58928571428567"/>
         </scene>
-        <!--Third Create Post View Controller-->
+        <!--Create Post View Controller-->
         <scene sceneID="7yd-MF-yWn">
             <objects>
-                <viewController id="uEu-ZL-MIK" customClass="ThirdCreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uEu-ZL-MIK" customClass="CP3_CreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="38V-LH-sCG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1271,10 +1271,10 @@
             </objects>
             <point key="canvasLocation" x="2099" y="-897"/>
         </scene>
-        <!--Create Post View Controller1-->
+        <!--Create Post View Controller-->
         <scene sceneID="WuL-74-CUx">
             <objects>
-                <viewController id="gPR-wQ-uCy" customClass="createPostViewController1" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gPR-wQ-uCy" customClass="CP1_CreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="90r-Xy-oRP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1518,7 +1518,7 @@
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="bwu-6j-KnY"/>
+        <segue reference="u6e-Ec-u4U"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
