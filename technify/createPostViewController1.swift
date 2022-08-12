@@ -13,8 +13,11 @@ class createPostViewController1: UIViewController {
 
     @IBOutlet weak var titleTextField: UITextField!
     
+    @IBOutlet weak var createPostLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        createPostLabel.text = "Create \(user1.username)'s Post"
 
         // Do any additional setup after loading the view.
     }

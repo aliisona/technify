@@ -1336,7 +1336,8 @@
                                 <attributedString key="attributedText">
                                     <fragment content="CREATE (user)'s POST">
                                         <attributes>
-                                            <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Bold"/>
                                             <font key="NSOriginalFont" size="14" name="HelveticaNeue-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1351,7 +1352,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="frA-u3-Tam"/>
                     <connections>
-                        <outlet property="createPostLabel" destination="j3m-eU-GvF" id="Fxe-Nz-SJE"/>
+                        <outlet property="createPostLabel" destination="j3m-eU-GvF" id="5Ek-sA-gBP"/>
                         <outlet property="titleTextField" destination="LYX-Ou-RMZ" id="j9S-g1-k8o"/>
                     </connections>
                 </viewController>
@@ -1469,6 +1470,10 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-GE-cRQ">
+                                <rect key="frame" x="116" y="71" width="188" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QyQ-W0-lOi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1482,7 +1487,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJ0-Ib-G57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5171" y="-214"/>
+            <point key="canvasLocation" x="5169.5652173913049" y="-214.28571428571428"/>
         </scene>
         <!--Create Post-->
         <scene sceneID="C2E-Do-3wD">
@@ -1512,7 +1517,7 @@
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="QTY-VN-OTh"/>
+        <segue reference="bwu-6j-KnY"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
