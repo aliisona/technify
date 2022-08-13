@@ -16,6 +16,8 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var profileImage: UIImageView!
     
+    @IBOutlet weak var bioText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,9 +25,11 @@ class ProfileViewController: UIViewController {
         
         postsCountText.text = ("Posts (\(user1.posts))")
         
-        profileImage.image = UIImage(named: "AppIcon")
-        
+//        profileImage.image = UIImage(named: "person.fill")?.withRenderingMode(.alwaysTemplate)
+
         profileImage.maskCircle()
+        
+        bioText.text = user1.bio
 
         // Do any additional setup after loading the view.
     }

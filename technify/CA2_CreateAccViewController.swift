@@ -35,6 +35,10 @@ class CA2_CreateAccViewController: UIViewController, UIImagePickerControllerDele
         }
     }
     
+    @IBAction func finalizeAccount(_ sender: UIButton) {
+        user1.bio = bioTextField.text!
+        
+    }
     
 
     /*
@@ -46,5 +50,12 @@ class CA2_CreateAccViewController: UIViewController, UIImagePickerControllerDele
         // Pass the selected object to the new view controller.
     }
     */
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "" {
+//                let dvc = segue.destination as! ProfileViewController
+//            dvc.profileImage.image = pFPSelectorImage.image
+//            }
+//    }
 
 }

@@ -21,7 +21,7 @@ public class Profile {
     
     var pfp = UIImage(named:"person.fill")
     
-    init(usernameSet : String = "username", emailSet : String = "email", passwordSet : String = "password", focusSet : String = "genericFocus", postsSet : Int = 0, bioSet : String = "I love to code", pfpSetString : String) {
+    init(usernameSet : String = "username", emailSet : String = "email", passwordSet : String = "password", focusSet : String = "genericFocus", postsSet : Int = 0, bioSet : String = "I love to code", pfpSetString : String = "person.fill") {
         username = usernameSet
         email = emailSet
         password = passwordSet
