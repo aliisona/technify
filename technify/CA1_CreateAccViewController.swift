@@ -28,15 +28,15 @@ class CA1_CreateAccViewController: UIViewController {
     @IBAction func passwordHiddenBtnTapped(_ sender: UIButton) {
                 
         if passBtnTap {
-            self.passwordHiddenImg.setImage(UIImage(named: "eye.fill"), for: .normal)
-            self.passwordTextField.isSecureTextEntry = false
+            passwordHiddenImg.setImage(UIImage(named: "eye.fill"), for: .normal)
+            passwordTextField.isSecureTextEntry = false
             print("password_shown")
         }
         
         else {
-            self.passwordHiddenImg.setImage( UIImage(named: "eye.slash.fill"), for: .normal)
+            passwordHiddenImg.setImage( UIImage(named: "eye.slash.fill"), for: .normal)
 
-            self.passwordTextField.isSecureTextEntry = true
+            passwordTextField.isSecureTextEntry = true
             print("password_hidden")
         }
         
