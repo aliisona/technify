@@ -26,22 +26,23 @@ class CA1_CreateAccViewController: UIViewController {
     var passBtnTap : Bool =  false
     
     @IBAction func passwordHiddenBtnTapped(_ sender: UIButton) {
+        
+        passBtnTap = !passBtnTap
+
                 
         if passBtnTap {
-            passwordHiddenImg.setImage(UIImage(named: "eye.fill"), for: .normal)
+            passwordHiddenImg.setImage(UIImage(systemName: "eye.fill"), for: .normal)
             passwordTextField.isSecureTextEntry = false
             print("password_shown")
         }
         
         else {
-            passwordHiddenImg.setImage( UIImage(named: "eye.slash.fill"), for: .normal)
+            passwordHiddenImg.setImage( UIImage(systemName: "eye.slash.fill"), for: .normal)
 
             passwordTextField.isSecureTextEntry = true
             print("password_hidden")
         }
         
-        passBtnTap = !passBtnTap
-
         
     }
     
@@ -56,8 +57,6 @@ class CA1_CreateAccViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         passwordTextField.isSecureTextEntry = true
-        passwordHiddenImg.setImage(UIImage(named: "eye.slash.fill"), for: .normal)
-        passwordHiddenImg.setImage(UIImage(named:"eye.fill"), for: .normal)
 
         // Do any additional setup after loading the view.
     }
