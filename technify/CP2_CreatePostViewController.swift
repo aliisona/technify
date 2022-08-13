@@ -9,6 +9,8 @@ import UIKit
 
 var imagePicker = UIImagePickerController()
 
+var selectedPostImage : UIImage?
+
 class CP2_CreatePostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imageDisplay: UIImageView!
@@ -35,6 +37,7 @@ class CP2_CreatePostViewController: UIViewController, UIImagePickerControllerDel
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imageDisplay.image = selectedImage
+            selectedPostImage = selectedImage
             imagePicker.dismiss(animated:true, completion :nil)
         }
 

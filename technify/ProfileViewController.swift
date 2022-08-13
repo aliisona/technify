@@ -26,6 +26,7 @@ class ProfileViewController: UIViewController {
         postsCountText.text = ("Posts (\(user1.posts))")
         
 //        profileImage.image = UIImage(named: "person.fill")?.withRenderingMode(.alwaysTemplate)
+        profileImage.image = selectedPFPImage
 
         profileImage.maskCircle()
         

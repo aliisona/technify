@@ -7,6 +7,8 @@
 
 import UIKit
 
+var selectedPFPImage : UIImage?
+
 class CA2_CreateAccViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var pFPSelectorImage: UIImageView!
@@ -31,6 +33,7 @@ class CA2_CreateAccViewController: UIViewController, UIImagePickerControllerDele
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             pFPSelectorImage.image = selectedImage
+            selectedPFPImage = selectedImage
             imagePicker.dismiss(animated: true, completion: nil)
         }
     }

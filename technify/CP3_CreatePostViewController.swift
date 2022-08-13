@@ -20,6 +20,7 @@ class CP3_CreatePostViewController: UIViewController {
         
         topicText.text = userPost1.title
         captionText.text = userPost1.caption
+        chosenImage.image = selectedPostImage
 
         // Do any additional setup after loading the view.
     }
