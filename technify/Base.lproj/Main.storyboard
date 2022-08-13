@@ -1234,34 +1234,39 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="784-aP-fzD">
+                                <rect key="frame" x="55" y="485" width="286" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="passTypeText:" destination="Rjl-FJ-wiP" eventType="editingDidEnd" id="9yC-8O-Huo"/>
+                                </connections>
+                            </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GSK-2X-9Px">
                                 <rect key="frame" x="59" y="671" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="0.46274507050000002" green="0.5176470876" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </switch>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="784-aP-fzD">
-                                <rect key="frame" x="55" y="485" width="286" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTz-g7-q7D">
+                                <rect key="frame" x="289" y="485" width="48" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="************">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="smallSystem"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="eye.slash.fill" catalog="system" title="">
+                                    <color key="baseForegroundColor" systemColor="systemRedColor"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="passTypeText:" destination="Rjl-FJ-wiP" eventType="editingDidEnd" id="9yC-8O-Huo"/>
+                                    <action selector="passwordHiddenBtnTapped:" destination="Rjl-FJ-wiP" eventType="touchUpInside" id="lmm-Rg-UZy"/>
                                 </connections>
-                            </textField>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L5m-f6-8EO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="FiD-to-2hF" id="4rW-ms-ab4"/>
+                        <outlet property="passwordHiddenImg" destination="kTz-g7-q7D" id="Bpx-Lc-iz1"/>
                         <outlet property="passwordTextField" destination="784-aP-fzD" id="jEK-Hu-esI"/>
                         <outlet property="subSwitch" destination="GSK-2X-9Px" id="bYv-kh-NHq"/>
                         <outlet property="tacSwitch" destination="App-Vs-vLY" id="jTl-K1-Oed"/>
@@ -1270,7 +1275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="evv-IV-yyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2099" y="-897"/>
+            <point key="canvasLocation" x="2040.5797101449277" y="-897.32142857142856"/>
         </scene>
         <!--Create Post View Controller-->
         <scene sceneID="WuL-74-CUx">
@@ -1519,7 +1524,7 @@
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="u6e-Ec-u4U"/>
+        <segue reference="QTY-VN-OTh"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1540,6 +1545,7 @@
         <image name="Screen Shot 2022-08-03 at 1.26.23 PM" width="684" height="272"/>
         <image name="Screen Shot 2022-08-03 at 1.57.35 PM" width="506" height="288"/>
         <image name="Starting Page" width="375" height="812"/>
+        <image name="eye.slash.fill" catalog="system" width="128" height="82"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
@@ -1550,6 +1556,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -17,14 +17,32 @@ class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var passwordHiddenImg: UIButton!
+    
     @IBOutlet weak var tacSwitch: UISwitch!
     
     @IBOutlet weak var subSwitch: UISwitch!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var passBtnTap : Bool =  false
+    
+    @IBAction func passwordHiddenBtnTapped(_ sender: UIButton) {
+                
+        if passBtnTap {
+            self.passwordHiddenImg.setImage(UIImage(named: "eye.fill"), for: .normal)
+            self.passwordTextField.isSecureTextEntry = false
+            print("password_shown")
+        }
+        
+        else {
+            self.passwordHiddenImg.setImage( UIImage(named: "eye.slash.fill"), for: .selected)
 
-        // Do any additional setup after loading the view.
+            self.passwordTextField.isSecureTextEntry = true
+            print("password_hidden")
+        }
+        
+        passBtnTap = !passBtnTap
+
+        
     }
     
     @IBAction func createAccountTapped(_ sender: UIButton) {
@@ -35,8 +53,13 @@ class CreateAccountViewController: UIViewController {
 
     }
     
-    @IBAction func passTypeText(_ sender: UITextField) {
-        
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        passwordTextField.isSecureTextEntry = true
+        passwordHiddenImg.setImage(UIImage(named: "eye.slash.fill"), for: .normal)
+        passwordHiddenImg.setImage(UIImage(named:"eye.fill"), for: .selected)
+
+        // Do any additional setup after loading the view.
     }
     
     
