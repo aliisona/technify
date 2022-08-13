@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD4E970528A7D67A008C24F3 /* CA2_CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E970428A7D67A008C24F3 /* CA2_CreateAccViewController.swift */; };
 		BDD87D682899924300C07E0B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D672899924300C07E0B /* HomePageViewController.swift */; };
-		BDD87D6A28999A2000C07E0B /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D6928999A2000C07E0B /* CreateAccountViewController.swift */; };
+		BDD87D6A28999A2000C07E0B /* CA1_CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D6928999A2000C07E0B /* CA1_CreateAccViewController.swift */; };
 		BDD87D6C28999BE300C07E0B /* profileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D6B28999BE300C07E0B /* profileSettings.swift */; };
 		BDD87D6E2899AC6E00C07E0B /* WelcomeBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D6D2899AC6E00C07E0B /* WelcomeBackViewController.swift */; };
 		BDD87D78289AF59200C07E0B /* CP1_CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D77289AF59200C07E0B /* CP1_CreatePostViewController.swift */; };
@@ -51,8 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD4E970428A7D67A008C24F3 /* CA2_CreateAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA2_CreateAccViewController.swift; sourceTree = "<group>"; };
 		BDD87D672899924300C07E0B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		BDD87D6928999A2000C07E0B /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BDD87D6928999A2000C07E0B /* CA1_CreateAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA1_CreateAccViewController.swift; sourceTree = "<group>"; };
 		BDD87D6B28999BE300C07E0B /* profileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileSettings.swift; sourceTree = "<group>"; };
 		BDD87D6D2899AC6E00C07E0B /* WelcomeBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackViewController.swift; sourceTree = "<group>"; };
 		BDD87D77289AF59200C07E0B /* CP1_CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP1_CreatePostViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +142,8 @@
 				BDD87D6B28999BE300C07E0B /* profileSettings.swift */,
 				BDD87D6D2899AC6E00C07E0B /* WelcomeBackViewController.swift */,
 				BDD87D672899924300C07E0B /* HomePageViewController.swift */,
-				BDD87D6928999A2000C07E0B /* CreateAccountViewController.swift */,
+				BDD87D6928999A2000C07E0B /* CA1_CreateAccViewController.swift */,
+				BD4E970428A7D67A008C24F3 /* CA2_CreateAccViewController.swift */,
 				BDD87D7F289AFCDD00C07E0B /* ProfileViewController.swift */,
 				BDD87D77289AF59200C07E0B /* CP1_CreatePostViewController.swift */,
 				BDD87D7B289AF6F900C07E0B /* CP2_CreatePostViewController.swift */,
@@ -305,10 +308,11 @@
 			files = (
 				EEE0FBCD289BEB8300E8C375 /* SwiftQ_4ViewController.swift in Sources */,
 				BDD87D7C289AF6F900C07E0B /* CP2_CreatePostViewController.swift in Sources */,
-				BDD87D6A28999A2000C07E0B /* CreateAccountViewController.swift in Sources */,
+				BDD87D6A28999A2000C07E0B /* CA1_CreateAccViewController.swift in Sources */,
 				BDD87D682899924300C07E0B /* HomePageViewController.swift in Sources */,
 				BDD87D78289AF59200C07E0B /* CP1_CreatePostViewController.swift in Sources */,
 				BDD87D6C28999BE300C07E0B /* profileSettings.swift in Sources */,
+				BD4E970528A7D67A008C24F3 /* CA2_CreateAccViewController.swift in Sources */,
 				EEE0FBCB289BEB7400E8C375 /* SwiftQ_2ViewController.swift in Sources */,
 				EEE0FBC7289BEB5200E8C375 /* SwiftQ_3ViewController.swift in Sources */,
 				BDD87D6E2899AC6E00C07E0B /* WelcomeBackViewController.swift in Sources */,

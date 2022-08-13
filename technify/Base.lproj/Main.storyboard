@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -33,7 +34,7 @@
                                     <color key="baseBackgroundColor" red="0.57570548570000002" green="0.61349826389999995" blue="0.44080396350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Rjl-FJ-wiP" kind="presentation" modalPresentationStyle="automatic" id="7QT-Xx-SRD"/>
+                                    <segue destination="cCG-zq-DH9" kind="presentation" modalPresentationStyle="automatic" id="7QT-Xx-SRD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35w-JJ-hf4">
@@ -67,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1200" y="-1308"/>
+            <point key="canvasLocation" x="-1539" y="-1483"/>
         </scene>
         <!--Welcome Back View Controller-->
         <scene sceneID="fvS-VK-giL">
@@ -161,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hs0-0s-Bf4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3090" y="-1694"/>
+            <point key="canvasLocation" x="-284" y="-2093"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vu1-He-JUd">
@@ -185,14 +186,14 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6T-0E-YCE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3091" y="-897"/>
+            <point key="canvasLocation" x="4586.9565217391309" y="-1016.5178571428571"/>
         </scene>
         <!--Focus-->
         <scene sceneID="gte-6H-nlB">
             <objects>
                 <viewController id="DPr-Dv-T06" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jni-DL-WUQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rf-LA-UWY">
@@ -240,7 +241,7 @@
             <objects>
                 <viewController id="W3b-2Z-XHX" customClass="HomePageViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A9y-fY-maR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3917"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3863"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8F-Ew-D79">
@@ -331,7 +332,7 @@
             <objects>
                 <viewController id="oXd-v3-Yrr" customClass="CP2_CreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0ii-PE-5EJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6T-IC-ERr">
@@ -411,7 +412,7 @@
             <objects>
                 <viewController id="uEu-ZL-MIK" customClass="CP3_CreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="38V-LH-sCG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bte-nY-8cK">
@@ -1024,10 +1025,10 @@
             </objects>
             <point key="canvasLocation" x="8305.7971014492759" y="740.625"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--Create Acc View Controller-->
         <scene sceneID="agJ-GR-Ox8">
             <objects>
-                <viewController id="Rjl-FJ-wiP" customClass="CreateAccountViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rjl-FJ-wiP" customClass="CA1_CreateAccViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FHG-jq-fFS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1176,7 +1177,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Create Account">
+                                        <fragment content="Add details">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
@@ -1188,16 +1189,15 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="createAccountTapped:" destination="Rjl-FJ-wiP" eventType="touchUpInside" id="xcq-dv-wf3"/>
-                                    <segue destination="yFt-aR-MOD" kind="presentation" modalPresentationStyle="fullScreen" id="QTY-VN-OTh"/>
+                                    <segue destination="REY-yJ-OuO" kind="presentation" id="ZJV-2B-sGd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4b7-y3-rky">
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4b7-y3-rky">
                                 <rect key="frame" x="163" y="773" width="174" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9854751196" green="0.96421034549999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Already have an account?">
                                             <attributes>
@@ -1207,9 +1207,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" red="0.9854751196" green="0.96421034549999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.9854751196" green="0.96421034549999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
+                                </state>
                                 <connections>
                                     <segue destination="TXL-Un-dNS" kind="presentation" id="8tG-Pv-ahm"/>
                                 </connections>
@@ -1261,6 +1259,7 @@
                         <viewLayoutGuide key="safeArea" id="L5m-f6-8EO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="e4P-dH-pmb"/>
                     <connections>
                         <outlet property="emailTextField" destination="FiD-to-2hF" id="4rW-ms-ab4"/>
                         <outlet property="passwordHiddenImg" destination="kTz-g7-q7D" id="Bpx-Lc-iz1"/>
@@ -1272,14 +1271,131 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="evv-IV-yyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2040.5797101449277" y="-897.32142857142856"/>
+            <point key="canvasLocation" x="626.08695652173913" y="-1017.1875"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="r2I-RF-TFW">
+            <objects>
+                <viewController id="REY-yJ-OuO" customClass="CA2_CreateAccViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2cd-UP-NdE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bu9-vn-UWw">
+                                <rect key="frame" x="52" y="44" width="282" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Details!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="41" name="GillSans-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEr-ux-nqd">
+                                <rect key="frame" x="212" y="725" width="182" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61412957700000004" green="0.6107846589" blue="0.50108789200000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Create Account">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.46274507050000002" green="0.5176470876" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="createAccountTapped:" destination="Rjl-FJ-wiP" eventType="touchUpInside" id="xUb-tt-7le"/>
+                                    <segue destination="yFt-aR-MOD" kind="show" id="G0N-bZ-3l0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAN-OB-Ybg">
+                                <rect key="frame" x="63" y="617" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Add a bio">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEK-tX-U4b" customClass="createAccount">
+                                <rect key="frame" x="63" y="589" width="293" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="_________________________________">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="GillSans-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JzB-1q-Gri">
+                                <rect key="frame" x="59" y="565" width="286" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2F-Ax-RHl">
+                                <rect key="frame" x="105" y="252" width="195" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="choosePhotoTapped:" destination="oXd-v3-Yrr" eventType="touchUpInside" id="G1N-hU-oqv"/>
+                                    <action selector="choosePhotoTapped:" destination="REY-yJ-OuO" eventType="touchUpInside" id="kyQ-4Y-9Sx"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9hZ-hn-UgD">
+                                <rect key="frame" x="104" y="251" width="196" height="196"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JhC-y6-cjL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="p1e-5L-yrV"/>
+                    <connections>
+                        <outlet property="bioTextField" destination="JzB-1q-Gri" id="tKE-YY-Ju7"/>
+                        <outlet property="pFPSelectorBtn" destination="G2F-Ax-RHl" id="gTp-25-Tq3"/>
+                        <outlet property="pFPSelectorImage" destination="9hZ-hn-UgD" id="i8I-7i-E2j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iL5-lU-Nz0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542" y="-1000"/>
         </scene>
         <!--Create Post View Controller-->
         <scene sceneID="WuL-74-CUx">
             <objects>
                 <viewController id="gPR-wQ-uCy" customClass="CP1_CreatePostViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="90r-Xy-oRP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wq1-l4-TCl">
@@ -1368,7 +1484,7 @@
             <objects>
                 <viewController id="wPI-bh-wG3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cbe-zO-Voj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8z-TW-NUv">
@@ -1409,7 +1525,7 @@
             <objects>
                 <viewController id="PGX-Ww-nHg" customClass="ProfileViewController" customModule="technify" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rXH-U5-7MG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" Create Account" translatesAutoresizingMaskIntoConstraints="NO" id="zSb-zb-l0J">
@@ -1474,7 +1590,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEP-GE-cRQ">
-                                <rect key="frame" x="116" y="71" width="188" height="177"/>
+                                <rect key="frame" x="109" y="61" width="195" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1513,15 +1629,33 @@
             </objects>
             <point key="canvasLocation" x="3205.7971014492755" y="-24.107142857142858"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8i7-d4-1g8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cCG-zq-DH9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="go0-6F-tpk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Rjl-FJ-wiP" kind="relationship" relationship="rootViewController" id="776-A0-zDf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pfo-ul-TZ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284.05797101449275" y="-1017.1875"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sO5-CA-8ih"/>
+        <segue reference="7fS-Bd-JWp"/>
         <segue reference="yQE-lK-U7A"/>
         <segue reference="StY-3z-ppt"/>
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="QTY-VN-OTh"/>
+        <segue reference="G0N-bZ-3l0"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1556,6 +1690,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

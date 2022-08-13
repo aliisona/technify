@@ -9,7 +9,7 @@ import UIKit
 
 public var user1 = Profile(usernameSet: "", emailSet: "", passwordSet: "", focusSet: "")
 
-class CreateAccountViewController: UIViewController {
+class CA1_CreateAccViewController: UIViewController {
     
     @IBOutlet weak var usernameTextField: UITextField!
     
