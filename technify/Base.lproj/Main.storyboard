@@ -1239,9 +1239,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="passTypeText:" destination="Rjl-FJ-wiP" eventType="editingDidEnd" id="9yC-8O-Huo"/>
-                                </connections>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GSK-2X-9Px">
                                 <rect key="frame" x="59" y="671" width="49" height="31"/>

@@ -34,7 +34,7 @@ class CreateAccountViewController: UIViewController {
         }
         
         else {
-            self.passwordHiddenImg.setImage( UIImage(named: "eye.slash.fill"), for: .selected)
+            self.passwordHiddenImg.setImage( UIImage(named: "eye.slash.fill"), for: .normal)
 
             self.passwordTextField.isSecureTextEntry = true
             print("password_hidden")
@@ -57,7 +57,7 @@ class CreateAccountViewController: UIViewController {
         super.viewDidLoad()
         passwordTextField.isSecureTextEntry = true
         passwordHiddenImg.setImage(UIImage(named: "eye.slash.fill"), for: .normal)
-        passwordHiddenImg.setImage(UIImage(named:"eye.fill"), for: .selected)
+        passwordHiddenImg.setImage(UIImage(named:"eye.fill"), for: .normal)
 
         // Do any additional setup after loading the view.
     }
