@@ -358,25 +358,33 @@
                                     <segue destination="uEu-ZL-MIK" kind="show" id="9et-RI-pff"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rh3-iE-wuQ">
-                                <rect key="frame" x="53" y="128" width="308" height="288"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Insert image"/>
-                                <connections>
-                                    <action selector="choosePhotoTapped:" destination="oXd-v3-Yrr" eventType="touchUpInside" id="MpQ-wI-5AS"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Create Post2" translatesAutoresizingMaskIntoConstraints="NO" id="x15-oO-09e">
                                 <rect key="frame" x="0.0" y="14" width="414" height="813"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzU-UW-UQ4">
-                                <rect key="frame" x="20" y="128" width="374" height="288"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rh3-iE-wuQ">
+                                <rect key="frame" x="53" y="143" width="308" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
+                                <color key="backgroundColor" red="0.61176472900000001" green="0.49803921579999999" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Select Image">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.61176472900000001" green="0.49803921579999999" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="choosePhotoTapped:" destination="oXd-v3-Yrr" eventType="touchUpInside" id="MpQ-wI-5AS"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Start typing caption..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fig-6F-5Ix">
                                 <rect key="frame" x="53" y="494" width="308" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -391,6 +399,11 @@
                                 <color key="highlightedColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="shadowColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzU-UW-UQ4">
+                                <rect key="frame" x="50" y="136" width="315" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o3M-Cg-0Vu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -463,8 +476,8 @@
                                 <color key="highlightedColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="shadowColor" red="0.9529411793" green="0.91764706370000004" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7438" translatesAutoresizingMaskIntoConstraints="NO" id="kdf-XF-ybJ">
-                                <rect key="frame" x="38" y="176" width="343" height="282"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kdf-XF-ybJ">
+                                <rect key="frame" x="58" y="176" width="315" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96097594500000005" green="0.91765570640000005" blue="0.9176545143" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
@@ -1698,7 +1711,7 @@
         <segue reference="iEk-k4-ZRR"/>
         <segue reference="F1G-Qz-3EN"/>
         <segue reference="Ca3-Ao-XmQ"/>
-        <segue reference="u6e-Ec-u4U"/>
+        <segue reference="G0N-bZ-3l0"/>
         <segue reference="8tG-Pv-ahm"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1708,7 +1721,6 @@
         <image name="Create Post2" width="414" height="812"/>
         <image name="Create Post3" width="422" height="820"/>
         <image name="Focus-1" width="414" height="812"/>
-        <image name="IMG_7438" width="4032" height="3024"/>
         <image name="Progress" width="422" height="4008"/>
         <image name="Quiz1" width="414" height="812"/>
         <image name="Quiz2" width="414" height="812"/>
