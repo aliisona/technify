@@ -14,16 +14,17 @@ public class QuizResults {
     
     func checkAns(quesType : Bool) {
         if quesType {
-            answered+=1
+            correct+=1
         }
-        correct+=1
-        print(answered, correct) //testing
+        answered+=1
+        print(correct, answered) //testing
     }
     
     func getResults() -> String {
         percentage = correct/answered //this is a double
-        let perString = String(Int(percentage) * 100)
+        let perString = String(Int(percentage * 100.00))
         print(percentage) //testing
+        print(perString)
         
         return "\(perString)%"
     }
@@ -48,8 +49,10 @@ class SwiftQuizMasterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        resultsMessText.text = swift_quiz.getResultMess()
         percentageText.text = swift_quiz.getResults()
+        
+        resultsMessText.text = swift_quiz.getResultMess()
+
         // Do any additional setup after loading the view.
     }
 }

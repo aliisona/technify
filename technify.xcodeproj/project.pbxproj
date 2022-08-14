@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD209C4728A9A6160033DFE6 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD209C4628A9A6160033DFE6 /* ProgressViewController.swift */; };
 		BD4E970528A7D67A008C24F3 /* CA2_CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E970428A7D67A008C24F3 /* CA2_CreateAccViewController.swift */; };
 		BDD87D682899924300C07E0B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D672899924300C07E0B /* HomePageViewController.swift */; };
 		BDD87D6A28999A2000C07E0B /* CA1_CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD87D6928999A2000C07E0B /* CA1_CreateAccViewController.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD209C4628A9A6160033DFE6 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		BD4E970428A7D67A008C24F3 /* CA2_CreateAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA2_CreateAccViewController.swift; sourceTree = "<group>"; };
 		BDD87D672899924300C07E0B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		BDD87D6928999A2000C07E0B /* CA1_CreateAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA1_CreateAccViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				EEE0FBC6289BEB5200E8C375 /* SwiftQ_3ViewController.swift */,
 				EEE0FBCC289BEB8300E8C375 /* SwiftQ_4ViewController.swift */,
 				EEE0FBCE289BEB9000E8C375 /* SwiftQ_5ViewController.swift */,
+				BD209C4628A9A6160033DFE6 /* ProgressViewController.swift */,
 			);
 			path = technify;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				BDE464512898618100A98A15 /* SceneDelegate.swift in Sources */,
 				EEE0FBCF289BEB9000E8C375 /* SwiftQ_5ViewController.swift in Sources */,
 				EEE0FBC9289BEB6500E8C375 /* SwiftQ_1ViewController.swift in Sources */,
+				BD209C4728A9A6160033DFE6 /* ProgressViewController.swift in Sources */,
 				BDD87D7A289AF5CD00C07E0B /* postSettings.swift in Sources */,
 				BDD87D7E289AF70B00C07E0B /* CP3_CreatePostViewController.swift in Sources */,
 				BDE464592898618100A98A15 /* technify.xcdatamodeld in Sources */,
