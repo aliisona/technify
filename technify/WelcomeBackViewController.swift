@@ -7,11 +7,10 @@
 
 import UIKit
 
-
 class WelcomeBackViewController: UIViewController {
 
     @IBOutlet public weak var usernameTextField: UITextField!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +19,19 @@ class WelcomeBackViewController: UIViewController {
     
     @IBAction func LoginTapped(_ sender: UIButton) {
         user1 = Profile(usernameSet: usernameTextField.text! ,  focusSet: "NonSelected")
+        
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+
+          // new ToDoCD object here, naming it toDo
+          let user1 = ProfileCD(entity: ProfileCD.entity(), insertInto: context)
+
+          // if the titleTextField has text, we will call that text titleText
+            user1.username = usernameTextField.text!
+
+          try? context.save()
+
+          navigationController?.popViewController(animated: true)
+        }
     }
     
     /*

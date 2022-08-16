@@ -52,6 +52,19 @@ class CA1_CreateAccViewController: UIViewController {
     
     @IBAction func createAccountTapped(_ sender: UIButton) {
         user1 = Profile(usernameSet: usernameTextField.text! , emailSet: emailTextField.text!, passwordSet: passwordTextField.text!, focusSet: "NonSelected")
+        
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+
+          // new ToDoCD object here, naming it toDo
+          let user1 = ProfileCD(entity: ProfileCD.entity(), insertInto: context)
+
+          // if the titleTextField has text, we will call that text titleText
+            user1.username = usernameTextField.text!
+
+          try? context.save()
+
+          navigationController?.popViewController(animated: true)
+        }
 
     }
     
